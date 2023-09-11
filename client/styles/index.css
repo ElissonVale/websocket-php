@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: var(--default-mono-font, "GitLab Mono"),"JetBrains Mono","Menlo","DejaVu Sans Mono","Liberation Mono","Consolas","Ubuntu Mono","Courier New","andale mono","lucida console",monospace;
 }
 
 body {
-    /* background: linear-gradient(rgba(32, 85, 129, 0.719), rgb(37, 78, 90)); */
-    background-color: #2ba55b;
+    background: linear-gradient(rgba(32, 85, 129, 0.719), rgb(37, 78, 90));
 }
 
 .chat-box {
@@ -47,13 +47,13 @@ body {
     border: none;
     height: 100%;
     border-bottom-left-radius: 20px;
-    width: 90%;
+    width: 82%;
     padding: 0px 50px;
     font-size: large;
 }
 
 .chat-input button {
-    width: calc(10% - 5px);
+    width: calc(18% - 10px);
     height: 100%;
     border-bottom-right-radius: 20px;
     border: none;

@@ -1,6 +1,5 @@
 <?php
 
-
 use OpenSwoole\WebSocket\Server;
 use OpenSwoole\Http\Request;
 use OpenSwoole\WebSocket\Frame;
